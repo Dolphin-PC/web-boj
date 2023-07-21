@@ -4,7 +4,7 @@ import CodeEditor from "../components/CodeEditor";
 import CodeExecButton from "../components/CodeExecButton";
 
 const CodeEditorPage = (): ReactElement => {
-  const [code, setCode] = useState("console.log('hello world!');");
+  const [code, setCode] = useState("");
   const [codeResult, setCodeResult] = useState("");
 
   return (

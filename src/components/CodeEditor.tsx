@@ -21,6 +21,7 @@ const CodeEditor = (props: inputType): ReactElement => {
   return (
     <div>
       <CodeMirror
+        placeholder="Enter the code"
         value={code}
         height="200px"
         extensions={[javascript({ jsx: true })]}
@@ -35,6 +36,7 @@ const Output = (props: propType): ReactElement => {
   return (
     <div>
       <CodeMirror
+        placeholder="Ouput is here"
         value={props.code}
         height="200px"
         extensions={[javascript({ jsx: true })]}
