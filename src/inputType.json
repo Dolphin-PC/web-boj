@@ -1,0 +1,14 @@
+[
+  {
+    "key": "1",
+    "displayName": "1. 하나의 값을 입력받을 때",
+    "execCode": "const input = __inputValue.toString().trim();",
+    "generateCode": "const input = require('fs').readFileSync('/dev/stdin').toString().trim();"
+  },
+  {
+    "key": "2",
+    "displayName": "2. 공백으로 구분된 한 줄의 값들을 입력받을 때",
+    "execCode": "",
+    "generateCode": "const input = require('fs').readFileSync('/dev/stdin').toString().trim().split(' ');"
+  }
+]
